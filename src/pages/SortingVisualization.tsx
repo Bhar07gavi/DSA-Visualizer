@@ -8,7 +8,7 @@ import { ArrowLeft, Play, Pause, RotateCcw, Shuffle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { toast } from "@/hooks/use-toast";
 import TheoryPanel from "@/components/TheoryPanel";
-import { sortingTheory } from "@/theory/sorting";
+import { sortingTheory } from "../theory/sorting";
 
 // Keep type in sync with implemented algorithms
 type SortingAlgorithm = "bubble" | "selection" | "insertion";
