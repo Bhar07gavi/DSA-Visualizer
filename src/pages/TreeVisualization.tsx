@@ -10,7 +10,8 @@ import { toast } from "sonner";
 
 // ✅ Theory imports (singular "tree")
 import TheoryPanel from "@/components/TheoryPanel";
-import { treeTheory } from "@/theory/trees";
+import { treeTheory } from "../theory/trees";
+
 
 interface TreeNode {
   value: number;
