@@ -22,7 +22,7 @@ import {
   stackTheory,
   type StackTheoryEntry,
   type StackTopic,
-} from "@/theory/stack";
+} from "../theory/stack";
 import {
   queueTheory,
   type QueueTheoryEntry,
