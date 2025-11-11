@@ -9,7 +9,7 @@ import { ArrowLeft, Search, RotateCcw, Shuffle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { toast } from "@/hooks/use-toast";
 import TheoryPanel from "@/components/TheoryPanel";
-import { searchingTheory } from "@/theory/searching";
+import { searchingTheory } from "../theory/searching";
 
 type SearchAlgorithm = "linear" | "binary" | "jump";
 
