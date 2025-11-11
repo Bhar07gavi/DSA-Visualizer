@@ -9,7 +9,7 @@ import { toast } from "@/hooks/use-toast";
 
 // 🔗 Theory imports
 import TheoryPanel, { type TheorySection } from "@/components/TheoryPanel";
-import { linkedListTheory } from "@/theory/linkedlist";
+import { linkedListTheory } from "../theory/linkedlist";
 
 interface ListNode {
   value: number;
